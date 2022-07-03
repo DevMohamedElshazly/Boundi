@@ -21,6 +21,13 @@
 body {
   font-family: var(--body-font);
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
 
 /*
 * ==================
@@ -185,3 +192,78 @@ body {
 *     TEAM
 * ==================
 */
+
+.team {
+  background-color: var(--section-color);
+}
+
+.team .box h4 {
+  background-color: var(--green);
+}
+
+.project {
+  background-color: var(--dark-color);
+}
+
+.subscribe {
+  background-color: var(--yellow);
+}
+
+.subscribe input[type="text"] {
+  border: none;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid#ccc;
+  outline: none;
+  font-size: 1rem;
+  font-family: inherit;
+  letter-spacing: 2px;
+}
+
+.subscribe input[type="submit"] {
+  background-color: var(--dark-color);
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  transition: 0.3s;
+  outline: none;
+  border: none;
+}
+
+.subscribe input[type="submit"]:hover {
+  background-color: #083477;
+}
+
+.footer {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.footer .social-link {
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .social-link i {
+  font-size: 2rem;
+  transition: 0.3s;
+}
+
+.footer .social-link i:hover {
+  color: var(--yellow);
+}
+
+.footer .social-link .facebook {
+  color: #1877f2;
+}
+.footer .social-link .twitter {
+  color: #1da1f2;
+}
+.contact .social-link .discord {
+  color: #5a64f0;
+}
+.footer .social-link .github {
+  color: #c9510c;
+}
