@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--=============== BOOTSTRAP 5 ===============-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Boundi</title>
+  </head>
+  <body>
+    <!--*=============== STR NAVBAR ===============-->
+    <nav class="navbar navbar-expand-lg fixed-top" id="header">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/logo.png" alt="Logo" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="ri-menu-line"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#services">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#portfolio">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <div class="search ps-3 pe-3 d-none d-lg-block">
+            <i class="ri-search-line"></i>
+          </div>
+
+          <a class="btn login-btn" href="#">Login</a>
+        </div>
+      </div>
+    </nav>
+    <!--*=============== END NAVBAR ===============-->
+
+    <!--*=============== STR HOME ===============-->
+    <section class="home">
+      <div class="home__container">
+        <img
+          src="./assets/img/home.jpg"
+          class="home__img position-absolute top-0 start-0"
+          alt="home image"
+        />
+
+        <div class="home__data text-light position-relative text-center">
+          <h1 class="home__title text-uppercase">Taste The Creativity</h1>
+          <p class="home__description text-white-50 mb-5">
+            We Make Awesome Graphic & Web Design
+          </p>
+          <a href="#" class="btn home__button login-btn">Get Started</a>
+        </div>
+      </div>
+    </section>
+    <!--*=============== END HOME ===============-->
+
+    <!--=============== BootStrap ===============-->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!--=============== BootStrap ===============-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
